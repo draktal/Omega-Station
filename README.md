@@ -2,9 +2,7 @@
 
 ---
 
-WWDP - форк Einstein Engines, представляющего из себя хард-форк  [Space Station 14](https://github.com/space-wizards/space-station-14), построенный на идеалах и дизайнерском вдохновении семейства серверов BayStation 12 от Space Station 13 с упором на модульный код, который каждый может использовать для создания RP-сервера своей мечты.
-
-WWDP - один из основных серверов русского коммьюнити, который выступает за идеалы свободы отыгрыша, свободы слова и настоящей классической атмосферы Space Station 13 - хаос, веселье, возможности.
+Omega Station - Сервер-форк WWDP с добавлением своего контента. Апстрим происходит не в определённое время, а когда решат разработчики или кто-то выше. Сборка постоянно дополняется. Будьте готовы встретить новые режимы и новые карты на этой модифицированной сборке!
 
 Space Station 14 - это ремейк SS13, который работает на собственном движке  [Robust Toolbox](https://github.com/space-wizards/RobustToolbox), собственном игровом движке, написанном на C#.
 
@@ -13,7 +11,7 @@ Space Station 14 - это ремейк SS13, который работает н�
 
 ## Ссылки
 
-[Steam](https://store.steampowered.com/app/2585480/Space_Station_Multiverse/) | [Клиент без Steam](https://spacestationmultiverse.com/downloads/) | [Основной репозиторий](https://github.com/Simple-Station/Einstein-Engines)
+[Discord](https://discord.gg/zGwuSbMSuA) | [Основной репозиторий](https://github.com/Simple-Station/Einstein-Engines)
 
 ## Контрибуция
 
