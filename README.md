@@ -1,4 +1,4 @@
-<div align="center"><img alt="WWDP logo" src="https://raw.githubusercontent.com/WWhiteDreamProject/wwdpublic/master/Resources/Textures/Logo/logo-ru" width="512px" /></div>
+<div align="center"><img alt="Omega logo" src="https://raw.githubusercontent.com/draktal/Omega-Station/master/Resources/Textures/Logo/logo-ru" width="512px" /></div>
 
 ---
 
