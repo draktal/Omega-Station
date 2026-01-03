@@ -453,12 +453,12 @@ ent-CrateTrainingBombs = учебные бомбы
     .desc = Три слабых бомбы для отработки обезвреживания. Костюм сапёра не входит в комплект. Нужен доступ к оружейной.
 
 
-ent-CrateArmoryPistols = ящик с пистолетами
-    .desc = Два пистолета NT и четыре магазина. Вход в оружейную обязателен.
+ent-CrateArmoryPistols = ящик пистолетов
+    .desc = Два пистолета NT и четыре магазина. Необходим доступ в Оружейную чтобы открыть.
 
 
 ent-CrateArmoryBRDIR25 = ящик BRDI-R25
-    .desc = Два бесшумных буллпапа. Прямиком из Республики Бисель. С оружейным доступом.
+    .desc = Два бесшумных буллпапа. Прямиком из Республики Бисель. Необходим доступ в Оружейную чтобы открыть.
 
 
 ent-CrateCargoLuxuryHardsuit = ящик с роскошным шахтёрским скафандром
@@ -731,19 +731,19 @@ ent-CrateScienceBiosuit = ящик с био-костюмами учёных
 
 
 ent-CrateSecurityHeavyBallisticArmor = ящик с тяжёлой баллистической бронёй
-    .desc = Два комплекта брони против пуль, с шлемами, щитами и противогазами. Требуется доступ к СБ.
+    .desc = Два комплекта брони против пуль, с шлемами, щитами и противогазами. Необходим доступ Службы Безопасности чтобы открыть.
 
 
 ent-CrateSecurityHeavyAblativeArmor = ящик с лазеростойкой бронёй
-    .desc = Два комплекта брони, устойчивой к лазерам, с шлемами, щитами и противогазами. Требуется доступ к СБ.
+    .desc = Два комплекта брони, устойчивой к лазерам, с шлемами, щитами и противогазами. Необходим доступ Службы Безопасности чтобы открыть.
 
 
 ent-CrateSecurityHeavySecurityArmor = ящик с тяжёлой бронёй СБ
-    .desc = Два комплекта тяжёлой брони СБ с шлемами и противогазами. Требуется доступ к СБ.
+    .desc = Два комплекта тяжёлой брони СБ с шлемами и противогазами. Необходим доступ Службы Безопасности чтобы открыть.
 
 
 ent-CrateSecuritySwat = ящик с комплектами спецназа
-    .desc = Два полноценных костюма спецназа для особых операций. Требуется доступ к СБ.
+    .desc = Два полноценных костюма спецназа для особых операций. Необходим доступ Службы Безопасности чтобы открыть.
 
 
 ent-CrateServiceTheatre = ящик для театра
@@ -818,11 +818,11 @@ ent-GunSafeSubMachineGunDrozd = сейф ПП Дрозд
 
 ent-GunSafeShotgunEnforcer = сейф дробовиков Силовик
 
-ent-GunSafeShotgunKammerer = сейф дробовиком Каммерер
+ent-GunSafeShotgunKammerer = сейф дробовиков Каммерер
 
 ent-GunSafeSubMachineGunWt550 = сейф ПП WT550
 
-ent-GunSafeLaserCarbine = сейф лазерных карабинов
+ent-GunSafeLaserCarbine = сейф лазерных винтовок
 
 ent-GunSafeRifleBRDIR25 = сейф BRDI-R25
 
@@ -928,7 +928,7 @@ ent-ClothingBeltKatanaSheathFilledHoS = ножны антикварной кат
     .desc = Пояс, инкрустированный золотом, с лентой из ткани, хранящейся в стазисе. Происхождение этих ножен давно забыто.
 
 
-ent-GunSafePistolUniversal = сейф пистолетов MK32
+ent-GunSafePistolUniversal = сейф пистолетов Mk32
 
 ent-GunSafeSniperGrand = сейф винтовок Mark I
 
@@ -8577,6 +8577,12 @@ ent-IncompleteBaseBallBat = недособранная бита
 ent-Cane = трость
     .desc = Изящная деревянная трость. Идеальна для вечерних прогулок и неожиданных ударов.
 
+ent-CaneSheath = { ent-Cane }
+    .desc = { ent-Cane.desc }
+
+ent-CaneSheathFilled = { ent-Cane }
+    .desc = { ent-Cane.desc }
+
 
 ent-CaneBlade = трость-клинок
     .desc = Острый клинок, замаскированный под рукоять трости. Джентльменское убийство.
@@ -11776,7 +11782,7 @@ ent-ClothingHeadHelmetHeavyBallistic = тяжёлый баллистически
     .desc = Продукт Zavodskoi Interstellar для защиты от огнестрела. Тот самый случай, когда лучше быть медленным, чем мёртвым.
 
 
-ent-ClothingHeadHelmetHeavyRiot = тяжёлый шлем подавления
+ent-ClothingHeadHelmetHeavyRiot = шлем для подавления беспорядков
     .desc = Шлем для беспорядков от Zavodskoi Interstellar. Лучшее, что есть против дубинок, кулаков и летящих табуреток.
 
 
@@ -11784,7 +11790,7 @@ ent-ClothingHeadHelmetHeavyStandard = тяжёлый охранный шлем
     .desc = Универсальный тяжёлый шлем от Zavodskoi Interstellar. Балансирует между весом и максимальной защитой.
 
 
-ent-ClothingHeadHelmetHeavyHoS = шлем командира безопасности
+ent-ClothingHeadHelmetHeavyHoS = шлем главы службы безопасности
     .desc = Усиленный шлем с отметками командного состава. Выпущен Zavodskoi Interstellar специально для NT.
 
 
@@ -11808,7 +11814,7 @@ ent-ClothingOuterArmorRiotHeavy = тяжёлая броня подавления
     .desc = Бронекостюм для подавления беспорядков. Защищает от летящей мебели, людей и их слов.
 
 
-ent-ClothingOuterArmorStandardHeavy = тяжёлая охранная броня
+ent-ClothingOuterArmorStandardHeavy = тяжёлая броня охраны
     .desc = Универсальная защита от всех напастей. Особенно хороша, когда не знаешь, чем тебе прилетит.
 
 
@@ -16325,10 +16331,6 @@ ent-ActivateSmokeImplant = Выпустить облако дыма
     .desc = Выпускает плотное облако дыма вокруг тебя.
 
 
-ent-ActionHeadcrabJump = Прыжок
-    .desc = Совершает суперпрыжок.
-
-
 ent-MakeshiftRightLeg = Протез правой ноги
     .desc = На скорую руку собранный протез из подручного хлама. Хромает, но идёт.
 
@@ -16706,15 +16708,6 @@ ent-RoomSpawnerRoomsWonderboxMaintRoom1_6x5 = маркер комнаты Wonder
 
 ent-RoomSpawnerRoomsWonderboxMaintRoom1_9x7 = маркер комнаты WonderBox1 9x7
 
-
-ent-SpawnHeadcrabNest = спавнер гнезда хэдкраба
-
-ent-SpawnMobHeadcrab = спавнер хэдкраба
-
-ent-SpawnMobHeadcrabFast = спавнер быстрого хэдкраба
-
-ent-SpawnMobHeadcrabPoison = спавнер ядовитого хэдкраба
-
 ent-SpawnPointHobo = спавн: бомж
 
 ent-SpawnPointMaid = спавн: горничная
@@ -16731,17 +16724,7 @@ ent-SpawnStraySupplyPodSyndicate = спавнер случайной капсу�
 ent-MobGondola = гондола
     .desc = Безрукий, он воплощает даосский принцип "у вэй" (недеяния), а выражение на его улыбающейся морде говорит о полном принятии мира таким, каков он есть.
 
-
-ent-BaseMobHeadcrab = хэдкраб
-    .desc = Похоже на нечто паразитическое.
-
-
-ent-MobHeadcrabFast = быстрый хэдкраб
-
-ent-MobHeadcrabPoison = ядовитый хэдкраб
-
 ent-BaseMobResomi = Юрист МакРаптор
-
 
 ent-FoodSnackCandySkullChocolate = шоколадный череп
     .desc = Обычная шоколадная конфета в форме черепа. На вкус — как смерть.
@@ -17049,7 +17032,7 @@ ent-WeaponPoweredCrossbowUnfinished = недоделанный арбалет
     .desc = Вот-вот станет опасной штукой.
 
 
-ent-WeaponSecurityRiotLauncher = гранатомёт подавления
+ent-WeaponSecurityRiotLauncher = специальный гранатомёт
     .desc = Компактный однозарядный гранатомёт.
 
 
@@ -17082,19 +17065,19 @@ ent-BoxBasicFluxCoreBig = большая коробка термоядер
 
 
 ent-BoxMeteor = диспенсер метеорных патронов
-    .desc = Ящик с патронами «метеор» для дробовиков подавления.
+    .desc = Ящик с патронами «метеор» для дробовиков.
 
 
 ent-BoxFrag = диспенсер осколочных патронов
-    .desc = Ящик с патронами «FRAG» для дробовиков подавления.
+    .desc = Ящик с патронами «FRAG» для дробовиков.
 
 
 ent-BoxLaser = диспенсер лазерных патронов
-    .desc = Ящик с патронами «лазер» для дробовиков подавления.
+    .desc = Ящик с патронами «лазер» для дробовиков.
 
 
 ent-BoxBreach = диспенсер бронебойных патронов
-    .desc = Ящик с патронами «бронебойный» для дробовиков подавления.
+    .desc = Ящик с патронами «бронебойный» для дробовиков.
 
 
 ent-ShellShotgunMeteor = патрон (.50 метеор)
@@ -17235,21 +17218,15 @@ ent-EventExGrenadeDispenser = раздатчик веселья
 
 ent-BaseEventItemDispenserFinite = ограниченный раздатчик веселья
 
+ent-GrenadeTrap = растяжка с гранатой
+    .desc = Взрывной сюрприз. Смотри под ноги!
 
-ent-HeadcrabNest = гнездо хедкраба
-    .desc = Кажется, что-то внутри шевелится…
-
-
-ent-GrenadeTrap = мина-сюрприз
-    .desc = Взрывной привет.
+ent-GrenadeTrapGrenade = { ent-GrenadeTrap }
+    .desc = { ent-GrenadeTrap.desc }
 
 
-ent-GrenadeTrapGrenade = мина-сюрприз
-    .desc = Взрывной привет.
-
-
-ent-GrenadeTrapPoles = мина-сюрприз
-    .desc = Взрывной привет.
+ent-GrenadeTrapPoles = { ent-GrenadeTrap }
+    .desc = { ent-GrenadeTrap.desc }
 
 
 ent-AnomalyWormhole = червоточина
