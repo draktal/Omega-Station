@@ -9,26 +9,26 @@
   - type: MeleeWeapon
     damage:
       types:
-        Piercing: 18
-        Heat: 18
+        Piercing: 11 # Omega
+        Heat: 11 # Omega
     soundHit:
       path: /Audio/Weapons/smash.ogg
   - type: DamageOtherOnHit
     damage:
       types:
-        Piercing: 20
-        Heat: 20
+        Piercing: 13 # Omega
+        Heat: 13 # Omega
   - type: Wieldable
   - type: IncreaseDamageOnWield
     damage:
       types:
-        Piercing: 4
-        Heat: 4
+        Piercing: 3 # Omega
+        Heat: 3 # Omega
   - type: Destructible
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 30
+        damage: 18 # Omega
       behaviors:
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
