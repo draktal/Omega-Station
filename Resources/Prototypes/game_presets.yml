@@ -268,7 +268,7 @@
   - revolutionaries
   name: rev-title
   description: rev-description
-  showInVote: false
+  showInVote: true # Omega
   rules:
   - Revolutionary
   - SubGamemodesRule
